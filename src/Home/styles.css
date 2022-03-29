@@ -1,0 +1,38 @@
+.home_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #f5f5f5;
+}
+
+.home_nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.home_nav > img {
+  width: 50px;
+  height: 50px;
+  margin: 1rem;
+}
+
+.home_nav > p {
+  padding: 1rem;
+  font-weight: bold;
+}
+
+.home_mainbody {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  background-color: #f5f5f5;
+}
